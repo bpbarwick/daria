@@ -1,0 +1,125 @@
+{
+  "id": "daria",
+  "title": "Daria",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "12",
+    "verified": "12",
+  "scripts": [
+    "init.js"
+  ],
+  "url": "https://github.com/bpbarwick/daria",
+  "manifest": "",
+  "download": ""
+  },
+  "packs": [
+    {
+      "name": "daria-actors",
+      "label": "Daria Actors",
+      "path": "packs/daria-actors",
+      "type": "Actor",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dnd5e",
+      "flags": {}
+    },
+    {
+      "name": "daria-journals",
+      "label": "Daria Journals",
+      "path": "packs/daria-journals",
+      "type": "JournalEntry",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dnd5e",
+      "flags": {}
+    },
+    {
+      "name": "daria-adventures",
+      "label": "Daria Adventures",
+      "path": "packs/daria-adventures",
+      "type": "Adventure",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dnd5e",
+      "flags": {}
+    },
+    {
+      "name": "daria-items",
+      "label": "Daria Items",
+      "path": "packs/daria-items",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dnd5e",
+      "flags": {}
+    },
+    {
+      "name": "daria-cards",
+      "label": "Daria Cards",
+      "path": "packs/daria-cards",
+      "type": "Cards",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dnd5e",
+      "flags": {}
+    },
+    {
+      "name": "daria-macros",
+      "label": "Daria Macros",
+      "path": "packs/daria-macros",
+      "type": "Macro",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dnd5e",
+      "flags": {}
+    },
+    {
+      "name": "daria-playlists",
+      "label": "Daria Playlists",
+      "path": "packs/daria-playlists",
+      "type": "Playlist",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dnd5e",
+      "flags": {}
+    },
+    {
+      "name": "daria-scenes",
+      "label": "Daria Scenes",
+      "path": "packs/daria-scenes",
+      "type": "Scene",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dnd5e",
+      "flags": {}
+    },
+    {
+      "name": "daria-tables",
+      "label": "Daria Tables",
+      "path": "packs/daria-tables",
+      "type": "RollTable",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dnd5e",
+      "flags": {}
+    }
+  ]
+}
